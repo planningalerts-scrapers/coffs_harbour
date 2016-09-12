@@ -2,10 +2,10 @@ require 'scraperwiki'
 require 'rss/2.0'
 require 'date'
 require 'mechanize'
-require 'iconv'
 
-base_url = "http://datracking.coffsharbour.nsw.gov.au/ICON/Pages/XC.Track/SearchApplication.aspx"
+base_url = "https://datracking.coffsharbour.nsw.gov.au/ICON/Pages/XC.Track/SearchApplication.aspx"
 url = "#{base_url}?d=thismonth&k=LodgementDate&o=rss"
+comment_url = "mailto:coffs.council@chcc.nsw.gov.au"
 
 agent = Mechanize.new
 
@@ -33,11 +33,13 @@ feed.channel.items.each do |item|
       'info_url'          => base_url + item.link,
       # Comment URL is actually an email address but I think it's best
       # they go to the detail page
-      'comment_url'       => base_url + item.link,
+      'comment_url'       => comment_url,
       'date_scraped'      => Date.today.to_s
     }
 
-    if ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? 
+    if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
+      puts "Saving record " + record['council_reference']
+#       puts record
       ScraperWiki.save_sqlite(['council_reference'], record)
     else
        puts "Skipping already saved record " + record['council_reference']
