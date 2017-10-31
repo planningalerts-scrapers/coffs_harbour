@@ -2,8 +2,18 @@ require 'scraperwiki'
 require 'rss/2.0'
 require 'mechanize'
 
+case ENV['MORPH_PERIOD']
+  when 'lastmonth'
+  	period = "lastmonth"
+  when 'thismonth'
+  	period = "thismonth"
+  else
+    period = "thisweek"
+end
+puts "Getting data in `" + period + "`, changable via MORPH_PERIOD environment"
+
 base_url = "https://planningexchange.coffsharbour.nsw.gov.au/PortalProd"
-url = "#{base_url}/Pages/XC.Track/SearchApplication.aspx?d=thismonth&k=LodgementDate&o=rss"
+url = "#{base_url}/Pages/XC.Track/SearchApplication.aspx?d=" + period + "&k=LodgementDate&o=rss"
 comment_url = "mailto:coffs.council@chcc.nsw.gov.au"
 
 agent = Mechanize.new
