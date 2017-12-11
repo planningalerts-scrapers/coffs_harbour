@@ -17,6 +17,7 @@ url = "#{base_url}/Pages/XC.Track/SearchApplication.aspx?d=" + period + "&k=Lodg
 comment_url = "mailto:coffs.council@chcc.nsw.gov.au"
 
 agent = Mechanize.new
+agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
 
 page = agent.get(url)
 t = page.content.to_s
