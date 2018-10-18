@@ -32,7 +32,7 @@ feed.channel.items.each do |item|
       'description'       => t[1].strip,
       # Have to make this a string to get the date library to parse it
       'date_received'     => Date.parse(item.pubDate.to_s).to_s,
-      'address'           => t[0].squeeze.strip,
+      'address'           => t[0].squeeze(" ").strip,
       'info_url'          => base_url + item.link,
       # Comment URL is actually an email address but I think it's best
       # they go to the detail page
