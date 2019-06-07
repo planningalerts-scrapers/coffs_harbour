@@ -32,8 +32,8 @@ feed.channel.items.each do |item|
       # Have to make this a string to get the date library to parse it
       'date_received'     => Date.parse(item.pubDate.to_s).to_s,
       'address'           => t[0].squeeze(" ").strip,
-      'info_url'          => base_url + item.link,
-      'date_scraped'      => Date.today.to_s
+      'date_scraped'      => Date.today.to_s,
+      'info_url'          => base_url + item.link
     }
 
     puts "Saving record " + record['council_reference'] + ", " + record['address']
