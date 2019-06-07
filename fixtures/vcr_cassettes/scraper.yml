@@ -1,0 +1,115 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://planningexchange.coffsharbour.nsw.gov.au/PortalProd/Pages/XC.Track/SearchApplication.aspx?d=thisweek&k=LodgementDate&o=rss
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.5 Ruby/2.4.4p296 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - planningexchange.coffsharbour.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/rss+xml; charset=utf-8
+      Set-Cookie:
+      - ASP.NET_SessionId=pemmx4blmoq1i1wf00bllj1l; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Fri, 07 Jun 2019 01:20:01 GMT
+      Content-Length:
+      - '6101'
+    body:
+      encoding: UTF-8
+      string: "<rss version=\"2.0\">\r\n  <channel>\r\n    <title />\r\n    <link
+        />\r\n    <description />\r\n    <language>en-us</language>\r\n    <Copyright>ICON
+        Software Solutions</Copyright>\r\n    <pubDate />\r\n    <lastBuildDate />\r\n
+        \   <docs>/</docs>\r\n    <generator>ICON Track</generator>\r\n    <managingEditor>ICON
+        Track</managingEditor>\r\n    <webMaster>ICON Track</webMaster>\r\n    <ttl>60</ttl>\r\n
+        \   <image>\r\n      <title />\r\n      <url />\r\n      <link />\r\n    </image>\r\n
+        \   <item>\r\n      <title>0889/19DA  - Dwelling-New</title>\r\n      <category>Dwelling-New</category>\r\n
+        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259217</link>\r\n      <description>76
+        MIMIWALI DRIVE BONVILLE NSW 2450 . Dwelling-New</description>\r\n      <author
+        />\r\n      <pubDate>2019-06-03T10:04:47.127+10:00</pubDate>\r\n      <guid>/Pages/XC.Track/SearchApplication.aspx?id=259217</guid>\r\n
+        \   </item>\r\n    <item>\r\n      <title>0890/19DA  - Change of Land Use
+        D/A</title>\r\n      <category>Change of Land Use D/A</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259222</link>\r\n
+        \     <description>126 DIAMOND HEAD DRIVE SANDY BEACH NSW 2456 . Change of
+        Land Use D/A - Conversion of Garage to Bedroom</description>\r\n      <author
+        />\r\n      <pubDate>2019-06-03T10:25:15.813+10:00</pubDate>\r\n      <guid>/Pages/XC.Track/SearchApplication.aspx?id=259222</guid>\r\n
+        \   </item>\r\n    <item>\r\n      <title>0891/19DA  - Miscellaneous Projects</title>\r\n
+        \     <category>Miscellaneous Projects</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259270</link>\r\n
+        \     <description> BRUXNER PARK ROAD KORORA NSW 2450 . Miscellaneous Projects
+        - Agricultural Poles and Netting</description>\r\n      <author />\r\n      <pubDate>2019-06-03T14:30:34+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259270</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0892/19DA  - Demolition of Building</title>\r\n
+        \     <category>Demolition of Building</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259278</link>\r\n
+        \     <description>37 SCHAFER STREET RED ROCK NSW 2456 . Demolition of Building</description>\r\n
+        \     <author />\r\n      <pubDate>2019-06-03T15:26:11+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259278</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0893/19DA  - Dwelling-Addition</title>\r\n      <category>Dwelling-Addition</category>\r\n
+        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259321</link>\r\n      <description>19
+        TOMKINS AVENUE WOOLGOOLGA NSW 2456 . Dwelling-Addition - Continued Use of
+        Carport, Rear Awning and Garage</description>\r\n      <author />\r\n      <pubDate>2019-06-04T11:14:51.86+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259321</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0887/19DA  - Dwelling-Alteration</title>\r\n      <category>Dwelling-Alteration</category>\r\n
+        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259190</link>\r\n      <description>42
+        FISHERMANS DRIVE EMERALD BEACH NSW 2456 . Dwelling-Alteration, garage patio
+        addition, tree removal &amp; replace existing retaining wall</description>\r\n
+        \     <author />\r\n      <pubDate>2019-06-04T15:27:40+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259190</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0185/19DM  - Development Application Modification</title>\r\n
+        \     <category>Development Application Modification</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259375</link>\r\n
+        \     <description>9 MOONEE BEACH ROAD MOONEE BEACH NSW 2450 . Seniors Housing
+        (26 self-contained dwellings) and Subdivision (27 lots - Community Title,
+        including internal road)</description>\r\n      <author />\r\n      <pubDate>2019-06-05T10:38:36.157+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259375</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0894/19DA  - Swimming Pool-Inground</title>\r\n
+        \     <category>Swimming Pool-Inground</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259379</link>\r\n
+        \     <description>10 COWLING CLOSE NANA GLEN NSW 2450 . Swimming Pool-Inground</description>\r\n
+        \     <author />\r\n      <pubDate>2019-06-05T11:06:04.353+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259379</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0895/19DA  - Dual Occupancy-New Free Stand.</title>\r\n
+        \     <category>Dual Occupancy-New Free Stand.</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259391</link>\r\n
+        \     <description>2 OCEAN DRIVE SAFETY BEACH NSW 2456 . Dual Occupancy-New
+        Free Stand.</description>\r\n      <author />\r\n      <pubDate>2019-06-05T12:35:35.517+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259391</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0896/19DA  - Swimming Pool-Inground</title>\r\n
+        \     <category>Swimming Pool-Inground</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259397</link>\r\n
+        \     <description>25 ROSELANDS DRIVE COFFS HARBOUR NSW 2450 . Swimming Pool-Inground
+        and shed</description>\r\n      <author />\r\n      <pubDate>2019-06-05T14:46:40.763+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259397</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0897/19DA  - Outbuilding-New</title>\r\n      <category>Outbuilding-New</category>\r\n
+        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259461</link>\r\n      <description>66
+        BONVILLE STATION ROAD BONVILLE NSW 2450 . Outbuilding-New - SHED</description>\r\n
+        \     <author />\r\n      <pubDate>2019-06-06T13:33:37.287+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259461</guid>\r\n    </item>\r\n
+        \   <item>\r\n      <title>0898/19DA  - Dual Occupancy-New Free Stand.</title>\r\n
+        \     <category>Dual Occupancy-New Free Stand.</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259465</link>\r\n
+        \     <description>18 KORFF STREET COFFS HARBOUR NSW 2450 . Dual Occupancy-New
+        Free Stand. - Granny Flat</description>\r\n      <author />\r\n      <pubDate>2019-06-06T14:33:13.36+10:00</pubDate>\r\n
+        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259465</guid>\r\n    </item>\r\n
+        \ </channel>\r\n</rss>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0
