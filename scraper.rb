@@ -14,7 +14,6 @@ puts "Getting data in `" + period + "`, changable via MORPH_PERIOD environment"
 
 base_url = "https://planningexchange.coffsharbour.nsw.gov.au/PortalProd"
 url = "#{base_url}/Pages/XC.Track/SearchApplication.aspx?d=" + period + "&k=LodgementDate&o=rss"
-comment_url = "mailto:coffs.council@chcc.nsw.gov.au"
 
 agent = Mechanize.new
 agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
@@ -34,9 +33,6 @@ feed.channel.items.each do |item|
       'date_received'     => Date.parse(item.pubDate.to_s).to_s,
       'address'           => t[0].squeeze(" ").strip,
       'info_url'          => base_url + item.link,
-      # Comment URL is actually an email address but I think it's best
-      # they go to the detail page
-      'comment_url'       => comment_url,
       'date_scraped'      => Date.today.to_s
     }
 
