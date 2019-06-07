@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://planningexchange.coffsharbour.nsw.gov.au/PortalProd/Pages/XC.Track/SearchApplication.aspx?d=thisweek&k=LodgementDate&o=rss
+    uri: https://planningexchange.coffsharbour.nsw.gov.au/PortalProd/Pages/XC.Track/SearchApplication.aspx?d=thisweek&k=LodgementDate&o=xml
     body:
       encoding: US-ASCII
       string: ''
@@ -12,7 +12,7 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.7.5 Ruby/2.4.4p296 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
@@ -31,86 +31,553 @@ http_interactions:
       Cache-Control:
       - private
       Content-Type:
-      - application/rss+xml; charset=utf-8
+      - application/xml; charset=utf-8
       Set-Cookie:
-      - ASP.NET_SessionId=s0vzxqxzroyz44gf42yilrzr; path=/; HttpOnly
+      - ASP.NET_SessionId=rspkhu1vy2as0gx4e4tnkt2m; path=/; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       Date:
-      - Fri, 07 Jun 2019 04:54:37 GMT
+      - Fri, 07 Jun 2019 04:56:01 GMT
       Content-Length:
-      - '6093'
+      - '46656'
     body:
       encoding: UTF-8
-      string: "<rss version=\"2.0\">\r\n  <channel>\r\n    <title />\r\n    <link
-        />\r\n    <description />\r\n    <language>en-us</language>\r\n    <Copyright>ICON
-        Software Solutions</Copyright>\r\n    <pubDate />\r\n    <lastBuildDate />\r\n
-        \   <docs>/</docs>\r\n    <generator>ICON Track</generator>\r\n    <managingEditor>ICON
-        Track</managingEditor>\r\n    <webMaster>ICON Track</webMaster>\r\n    <ttl>60</ttl>\r\n
-        \   <image>\r\n      <title />\r\n      <url />\r\n      <link />\r\n    </image>\r\n
-        \   <item>\r\n      <title>0891/19DA  - Miscellaneous Projects</title>\r\n
-        \     <category>Miscellaneous Projects</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259270</link>\r\n
-        \     <description> BRUXNER PARK ROAD KORORA NSW 2450 . Miscellaneous Projects
-        - Agricultural Poles and Netting</description>\r\n      <author />\r\n      <pubDate>2019-06-03T14:30:34+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259270</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0892/19DA  - Demolition of Building</title>\r\n
-        \     <category>Demolition of Building</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259278</link>\r\n
-        \     <description>37 SCHAFER STREET RED ROCK NSW 2456 . Demolition of Building</description>\r\n
-        \     <author />\r\n      <pubDate>2019-06-03T15:26:11+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259278</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0893/19DA  - Dwelling-Addition</title>\r\n      <category>Dwelling-Addition</category>\r\n
-        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259321</link>\r\n      <description>19
-        TOMKINS AVENUE WOOLGOOLGA NSW 2456 . Dwelling-Addition - Continued Use of
-        Carport, Rear Awning and Garage</description>\r\n      <author />\r\n      <pubDate>2019-06-04T11:14:51.86+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259321</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0887/19DA  - Dwelling-Alteration</title>\r\n      <category>Dwelling-Alteration</category>\r\n
-        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259190</link>\r\n      <description>42
-        FISHERMANS DRIVE EMERALD BEACH NSW 2456 . Dwelling-Alteration, garage patio
-        addition, tree removal &amp; replace existing retaining wall</description>\r\n
-        \     <author />\r\n      <pubDate>2019-06-04T15:27:40+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259190</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0889/19DA  - Dwelling-New</title>\r\n      <category>Dwelling-New</category>\r\n
-        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259217</link>\r\n      <description>76
-        MIMIWALI DRIVE BONVILLE NSW 2450 . Dwelling-New</description>\r\n      <author
-        />\r\n      <pubDate>2019-06-05T10:04:47+10:00</pubDate>\r\n      <guid>/Pages/XC.Track/SearchApplication.aspx?id=259217</guid>\r\n
-        \   </item>\r\n    <item>\r\n      <title>0890/19DA  - Change of Land Use
-        D/A</title>\r\n      <category>Change of Land Use D/A</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259222</link>\r\n
-        \     <description>126 DIAMOND HEAD DRIVE SANDY BEACH NSW 2456 . Change of
-        Land Use D/A - Conversion of Garage to Bedroom</description>\r\n      <author
-        />\r\n      <pubDate>2019-06-05T10:25:15+10:00</pubDate>\r\n      <guid>/Pages/XC.Track/SearchApplication.aspx?id=259222</guid>\r\n
-        \   </item>\r\n    <item>\r\n      <title>0185/19DM  - Development Application
-        Modification</title>\r\n      <category>Development Application Modification</category>\r\n
-        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259375</link>\r\n      <description>9
-        MOONEE BEACH ROAD MOONEE BEACH NSW 2450 . Seniors Housing (26 self-contained
-        dwellings) and Subdivision (27 lots - Community Title, including internal
-        road)</description>\r\n      <author />\r\n      <pubDate>2019-06-05T10:38:36.157+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259375</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0894/19DA  - Swimming Pool-Inground</title>\r\n
-        \     <category>Swimming Pool-Inground</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259379</link>\r\n
-        \     <description>10 COWLING CLOSE NANA GLEN NSW 2450 . Swimming Pool-Inground</description>\r\n
-        \     <author />\r\n      <pubDate>2019-06-05T11:06:04.353+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259379</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0895/19DA  - Dual Occupancy-New Free Stand.</title>\r\n
-        \     <category>Dual Occupancy-New Free Stand.</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259391</link>\r\n
-        \     <description>2 OCEAN DRIVE SAFETY BEACH NSW 2456 . Dual Occupancy-New
-        Free Stand.</description>\r\n      <author />\r\n      <pubDate>2019-06-05T12:35:35.517+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259391</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0896/19DA  - Swimming Pool-Inground</title>\r\n
-        \     <category>Swimming Pool-Inground</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259397</link>\r\n
-        \     <description>25 ROSELANDS DRIVE COFFS HARBOUR NSW 2450 . Swimming Pool-Inground
-        and shed</description>\r\n      <author />\r\n      <pubDate>2019-06-05T14:46:40.763+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259397</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0897/19DA  - Outbuilding-New</title>\r\n      <category>Outbuilding-New</category>\r\n
-        \     <link>/Pages/XC.Track/SearchApplication.aspx?id=259461</link>\r\n      <description>66
-        BONVILLE STATION ROAD BONVILLE NSW 2450 . Outbuilding-New - SHED</description>\r\n
-        \     <author />\r\n      <pubDate>2019-06-06T13:33:37.287+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259461</guid>\r\n    </item>\r\n
-        \   <item>\r\n      <title>0898/19DA  - Dual Occupancy-New Free Stand.</title>\r\n
-        \     <category>Dual Occupancy-New Free Stand.</category>\r\n      <link>/Pages/XC.Track/SearchApplication.aspx?id=259465</link>\r\n
-        \     <description>18 KORFF STREET COFFS HARBOUR NSW 2450 . Dual Occupancy-New
-        Free Stand. - Granny Flat</description>\r\n      <author />\r\n      <pubDate>2019-06-06T14:33:13.36+10:00</pubDate>\r\n
-        \     <guid>/Pages/XC.Track/SearchApplication.aspx?id=259465</guid>\r\n    </item>\r\n
-        \ </channel>\r\n</rss>"
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>259270</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>863</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Miscellaneous Projects</NatureOfApplication>\r\n
+        \   <ReferenceNumber>0891/19DA</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>891</ReferenceNumberNumber>\r\n    <EstimatedCost>10000.000000</EstimatedCost>\r\n
+        \   <Decision>In Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n
+        \   <Status>INPROGRESS</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-06-03T14:30:34+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Miscellaneous Projects
+        - Agricultural Poles and Netting</ApplicationDetails>\r\n    <OfficerId>TBA</OfficerId>\r\n
+        \   <Officer> TO BE ADVISED</Officer>\r\n    <Contact />\r\n    <Group />\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>259270</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259270</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259270</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>1535400</PropertyId>\r\n      <ApplicationId>259270</ApplicationId>\r\n
+        \     <AssessmentId>1709368</AssessmentId>\r\n      <ParcelId>148810</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetName>BRUXNER PARK ROAD</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>KORORA</LocalityName>\r\n      <Postcode>2450</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Ward>KO</Ward>\r\n      <Line1> BRUXNER PARK ROAD</Line1>\r\n      <Line2>KORORA
+        NSW 2450</Line2>\r\n      <FullLegalDescription>LOT 2 DP 778574 &amp; SUBJ
+        TO WTR E</FullLegalDescription>\r\n      <Area>4.000000</Area>\r\n      <AreaUnits>H</AreaUnits>\r\n
+        \     <ApplicationIdS>259270</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <PropertyId>1536900</PropertyId>\r\n      <ApplicationId>259270</ApplicationId>\r\n
+        \     <AssessmentId>05514007557</AssessmentId>\r\n      <ParcelId>148960</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>218</StreetNumber1>\r\n      <StreetName>BRUXNER
+        PARK ROAD</StreetName>\r\n      <StreetType />\r\n      <LocalityName>KORORA</LocalityName>\r\n
+        \     <Postcode>2450</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>KO</Ward>\r\n      <Line1>218
+        BRUXNER PARK ROAD</Line1>\r\n      <Line2>KORORA NSW 2450</Line2>\r\n      <FullLegalDescription>LOT
+        364 DP 44800  SUBJ TO EASEMENTS CP 83/21</FullLegalDescription>\r\n      <Area>6.028000</Area>\r\n
+        \     <AreaUnits>H</AreaUnits>\r\n      <ApplicationIdS>259270</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>259270</ApplicationId>\r\n
+        \     <PartyId>44712</PartyId>\r\n      <PersonId>44712</PersonId>\r\n      <PropertyId>259270</PropertyId>\r\n
+        \     <FamilyName>RESOURCE DESIGN &amp; MANAGEMENT PTY LTD</FamilyName>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FullName>RESOURCE DESIGN
+        &amp; MANAGEMENT PTY LTD</FullName>\r\n      <EmailAddress>rdm@resdesman.com.au</EmailAddress>\r\n
+        \     <TelephoneNumber>6651 2688</TelephoneNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259270</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259270</ApplicationId>\r\n      <PartyId>20675</PartyId>\r\n
+        \     <PersonId>20675</PersonId>\r\n      <PropertyId>259270</PropertyId>\r\n
+        \     <FamilyName>SINGH</FamilyName>\r\n      <GivenName>BALBIR (KAUR)</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS BALBIR (KAUR) SINGH</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259270</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259270</ApplicationId>\r\n      <PartyId>18449</PartyId>\r\n
+        \     <PersonId>18449</PersonId>\r\n      <PropertyId>259270</PropertyId>\r\n
+        \     <FamilyName>SINGH</FamilyName>\r\n      <GivenName>NARINDER</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR NARINDER SINGH</FullName>\r\n      <EmailAddress>mungi_05@hotmail.com</EmailAddress>\r\n
+        \     <MobileNumber>0421 288 800</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259270</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>259278</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>814</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Demolition of Building</NatureOfApplication>\r\n
+        \   <ReferenceNumber>0892/19DA</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>892</ReferenceNumberNumber>\r\n    <EstimatedCost>15000.000000</EstimatedCost>\r\n
+        \   <Decision>In Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n
+        \   <Status>INPROGRESS</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-06-03T15:26:11+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Demolition of Building</ApplicationDetails>\r\n
+        \   <OfficerId>TBA</OfficerId>\r\n    <Officer> TO BE ADVISED</Officer>\r\n
+        \   <Contact />\r\n    <Group />\r\n    <DADays>4</DADays>\r\n    <ApplicationIdS>259278</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259278</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259278</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>2221900</PropertyId>\r\n      <ApplicationId>259278</ApplicationId>\r\n
+        \     <ParcelId>319565</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>37</StreetNumber1>\r\n
+        \     <StreetNumber2>0</StreetNumber2>\r\n      <StreetName>SCHAFER STREET</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>RED ROCK</LocalityName>\r\n      <Postcode>2456</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Line1>37 SCHAFER STREET</Line1>\r\n      <Line2>RED ROCK NSW 2456</Line2>\r\n
+        \     <FullLegalDescription>Lot 16 DP 250302</FullLegalDescription>\r\n      <Area>417.300000</Area>\r\n
+        \     <AreaUnits>M</AreaUnits>\r\n      <ApplicationIdS>259278</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>259278</ApplicationId>\r\n
+        \     <PartyId>121518</PartyId>\r\n      <PersonId>121518</PersonId>\r\n      <PropertyId>259278</PropertyId>\r\n
+        \     <FamilyName>GRAHAM</FamilyName>\r\n      <GivenName>DALE</GivenName>\r\n
+        \     <Gender>m</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MR DALE GRAHAM</FullName>\r\n      <EmailAddress>dalethewhale@hotmail.com</EmailAddress>\r\n
+        \     <MobileNumber>0424 273 296</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259278</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259278</ApplicationId>\r\n      <PartyId>121518</PartyId>\r\n
+        \     <PersonId>121518</PersonId>\r\n      <PropertyId>259278</PropertyId>\r\n
+        \     <FamilyName>GRAHAM</FamilyName>\r\n      <GivenName>DALE</GivenName>\r\n
+        \     <Gender>m</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR DALE GRAHAM</FullName>\r\n      <EmailAddress>dalethewhale@hotmail.com</EmailAddress>\r\n
+        \     <MobileNumber>0424 273 296</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259278</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259278</ApplicationId>\r\n      <PartyId>134245</PartyId>\r\n
+        \     <PersonId>134245</PersonId>\r\n      <PropertyId>259278</PropertyId>\r\n
+        \     <FamilyName>STEINBORNER</FamilyName>\r\n      <GivenName>JESSICA</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>MS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MS JESSICA STEINBORNER</FullName>\r\n      <EmailAddress>steinbornerjessica@gmail.com</EmailAddress>\r\n
+        \     <MobileNumber>0405 269 888</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259278</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>259321</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>821</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Dwelling-Addition</NatureOfApplication>\r\n    <ReferenceNumber>0893/19DA</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>893</ReferenceNumberNumber>\r\n
+        \   <Decision>In Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n
+        \   <Status>INPROGRESS</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-06-04T11:14:51.86+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Dwelling-Addition -
+        Continued Use of Carport, Rear Awning and Garage</ApplicationDetails>\r\n
+        \   <Contact />\r\n    <Group />\r\n    <DADays>3</DADays>\r\n    <ApplicationIdS>259321</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259321</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259321</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>1926300</PropertyId>\r\n      <ApplicationId>259321</ApplicationId>\r\n
+        \     <AssessmentId>07699509001</AssessmentId>\r\n      <ParcelId>186880</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>19</StreetNumber1>\r\n      <StreetName>TOMKINS
+        AVENUE</StreetName>\r\n      <StreetType />\r\n      <LocalityName>WOOLGOOLGA</LocalityName>\r\n
+        \     <Postcode>2456</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>WT</Ward>\r\n      <Line1>19
+        TOMKINS AVENUE</Line1>\r\n      <Line2>WOOLGOOLGA NSW 2456</Line2>\r\n      <FullLegalDescription>LOT
+        31 DP 702295</FullLegalDescription>\r\n      <Area>834.500000</Area>\r\n      <AreaUnits>M</AreaUnits>\r\n
+        \     <ApplicationIdS>259321</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>259321</ApplicationId>\r\n      <PartyId>118306</PartyId>\r\n
+        \     <PersonId>118306</PersonId>\r\n      <PropertyId>259321</PropertyId>\r\n
+        \     <FamilyName>PETERSON</FamilyName>\r\n      <GivenName>STEPHEN JAMES</GivenName>\r\n
+        \     <Gender>m</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MR STEPHEN JAMES PETERSON</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259321</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259321</ApplicationId>\r\n      <PartyId>118306</PartyId>\r\n
+        \     <PersonId>118306</PersonId>\r\n      <PropertyId>259321</PropertyId>\r\n
+        \     <FamilyName>PETERSON</FamilyName>\r\n      <GivenName>STEPHEN JAMES</GivenName>\r\n
+        \     <Gender>m</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR STEPHEN JAMES PETERSON</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259321</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259321</ApplicationId>\r\n      <PartyId>118307</PartyId>\r\n
+        \     <PersonId>118307</PersonId>\r\n      <PropertyId>259321</PropertyId>\r\n
+        \     <FamilyName>PETERSON</FamilyName>\r\n      <GivenName>SHARON</GivenName>\r\n
+        \     <Gender>f</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS SHARON PETERSON</FullName>\r\n      <EmailAddress>peterson@acr.net.au</EmailAddress>\r\n
+        \     <MobileNumber>0400 809 066</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259321</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>259190</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>822</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Dwelling-Alteration</NatureOfApplication>\r\n    <ReferenceNumber>0887/19DA</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>887</ReferenceNumberNumber>\r\n
+        \   <EstimatedCost>130000.000000</EstimatedCost>\r\n    <Decision>In Progress</Decision>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>INPROGRESS</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-04T15:27:40+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Dwelling-Alteration,
+        garage patio addition, tree removal &amp; replace existing retaining wall</ApplicationDetails>\r\n
+        \   <OfficerId>TBA</OfficerId>\r\n    <Officer> TO BE ADVISED</Officer>\r\n
+        \   <Contact />\r\n    <Group />\r\n    <DADays>3</DADays>\r\n    <ApplicationIdS>259190</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259190</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259190</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>1619100</PropertyId>\r\n      <ApplicationId>259190</ApplicationId>\r\n
+        \     <AssessmentId>05967000000</AssessmentId>\r\n      <ParcelId>142921</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>42</StreetNumber1>\r\n      <StreetName>FISHERMANS
+        DRIVE</StreetName>\r\n      <StreetType />\r\n      <LocalityName>EMERALD
+        BEACH</LocalityName>\r\n      <Postcode>2456</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>EB</Ward>\r\n      <Line1>42
+        FISHERMANS DRIVE</Line1>\r\n      <Line2>EMERALD BEACH NSW 2456</Line2>\r\n
+        \     <FullLegalDescription>Lot 79 DP 225852</FullLegalDescription>\r\n      <Area>626.000000</Area>\r\n
+        \     <AreaUnits>M</AreaUnits>\r\n      <ApplicationIdS>259190</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>1619100</PropertyId>\r\n
+        \     <ApplicationId>259190</ApplicationId>\r\n      <AssessmentId>05967000000</AssessmentId>\r\n
+        \     <ParcelId>157110</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>42</StreetNumber1>\r\n
+        \     <StreetName>FISHERMANS DRIVE</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>EMERALD BEACH</LocalityName>\r\n      <Postcode>2456</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Ward>EB</Ward>\r\n      <Line1>42 FISHERMANS DRIVE</Line1>\r\n      <Line2>EMERALD
+        BEACH NSW 2456</Line2>\r\n      <FullLegalDescription>Lot 78 DP 225852</FullLegalDescription>\r\n
+        \     <Area>575.400000</Area>\r\n      <AreaUnits>M</AreaUnits>\r\n      <ApplicationIdS>259190</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>259190</ApplicationId>\r\n
+        \     <PartyId>19618</PartyId>\r\n      <PersonId>19618</PersonId>\r\n      <PropertyId>259190</PropertyId>\r\n
+        \     <FamilyName>HENNESSY</FamilyName>\r\n      <GivenName>PETER WILLIAM</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MR PETER WILLIAM HENNESSY</FullName>\r\n      <MobileNumber>0419
+        146 571</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>259190</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259190</ApplicationId>\r\n
+        \     <PartyId>19618</PartyId>\r\n      <PersonId>19618</PersonId>\r\n      <PropertyId>259190</PropertyId>\r\n
+        \     <FamilyName>HENNESSY</FamilyName>\r\n      <GivenName>PETER WILLIAM</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR PETER WILLIAM HENNESSY</FullName>\r\n      <MobileNumber>0419
+        146 571</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>259190</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259190</ApplicationId>\r\n
+        \     <PartyId>19619</PartyId>\r\n      <PersonId>19619</PersonId>\r\n      <PropertyId>259190</PropertyId>\r\n
+        \     <FamilyName>HENNESSY</FamilyName>\r\n      <GivenName>CATHY ANNE</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS CATHY ANNE HENNESSY</FullName>\r\n      <EmailAddress>hennessyclann@bigpond.com</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>259190</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>259217</ApplicationId>\r\n    <ApplicationType>Joint Development
+        Building</ApplicationType>\r\n    <NatureOfApplicationType>820</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Dwelling-New</NatureOfApplication>\r\n    <ReferenceNumber>0889/19DA</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>889</ReferenceNumberNumber>\r\n
+        \   <EstimatedCost>245000.000000</EstimatedCost>\r\n    <Decision>In Progress</Decision>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>INPROGRESS</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-05T10:04:47+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Dwelling-New</ApplicationDetails>\r\n
+        \   <OfficerId>TBA</OfficerId>\r\n    <Officer> TO BE ADVISED</Officer>\r\n
+        \   <Contact />\r\n    <Group />\r\n    <DADays>2</DADays>\r\n    <ApplicationIdS>259217</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259217</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259217</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>2261125</PropertyId>\r\n      <ApplicationId>259217</ApplicationId>\r\n
+        \     <ParcelId>3341970</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>76</StreetNumber1>\r\n
+        \     <StreetName>MIMIWALI DRIVE</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>BONVILLE</LocalityName>\r\n      <Postcode>2450</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Line1>76 MIMIWALI DRIVE</Line1>\r\n      <Line2>BONVILLE NSW 2450</Line2>\r\n
+        \     <FullLegalDescription>Lot 14 DP 1232448</FullLegalDescription>\r\n      <Area>569.600000</Area>\r\n
+        \     <AreaUnits>M</AreaUnits>\r\n      <Dimensions>21.175ARC/10.82 x 35.655/34.44</Dimensions>\r\n
+        \     <ApplicationIdS>259217</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>259217</ApplicationId>\r\n      <PartyId>25025</PartyId>\r\n
+        \     <PersonId>25025</PersonId>\r\n      <PropertyId>259217</PropertyId>\r\n
+        \     <FamilyName>GWYNNE</FamilyName>\r\n      <GivenName>RONALD THOMAS</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MR RONALD THOMAS GWYNNE</FullName>\r\n      <EmailAddress>gonetothedogs@tpg.com.au</EmailAddress>\r\n
+        \     <MobileNumber>0412766210</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259217</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259217</ApplicationId>\r\n      <PartyId>133404</PartyId>\r\n
+        \     <PersonId>133404</PersonId>\r\n      <PropertyId>259217</PropertyId>\r\n
+        \     <FamilyName>AMELODY PTY LTD</FamilyName>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>AMELODY PTY LTD</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259217</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>259222</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>860</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Change of Land Use D/A</NatureOfApplication>\r\n
+        \   <ReferenceNumber>0890/19DA</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>890</ReferenceNumberNumber>\r\n    <EstimatedCost>1000.000000</EstimatedCost>\r\n
+        \   <Decision>In Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n
+        \   <Status>INPROGRESS</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-06-05T10:25:15+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Change of Land Use D/A
+        - Conversion of Garage to Bedroom</ApplicationDetails>\r\n    <OfficerId>TBA</OfficerId>\r\n
+        \   <Officer> TO BE ADVISED</Officer>\r\n    <Contact />\r\n    <Group />\r\n
+        \   <DADays>2</DADays>\r\n    <ApplicationIdS>259222</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259222</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259222</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>1969900</PropertyId>\r\n      <ApplicationId>259222</ApplicationId>\r\n
+        \     <AssessmentId>08028000001</AssessmentId>\r\n      <ParcelId>191170</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>126</StreetNumber1>\r\n      <StreetName>DIAMOND
+        HEAD DRIVE</StreetName>\r\n      <StreetType />\r\n      <LocalityName>SANDY
+        BEACH</LocalityName>\r\n      <Postcode>2456</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>SB</Ward>\r\n      <Line1>126
+        DIAMOND HEAD DRIVE</Line1>\r\n      <Line2>SANDY BEACH NSW 2456</Line2>\r\n
+        \     <FullLegalDescription>LOT 196 DP 227257</FullLegalDescription>\r\n      <Area>575.400000</Area>\r\n
+        \     <AreaUnits>M</AreaUnits>\r\n      <Dimensions>15.24X38.1</Dimensions>\r\n
+        \     <ApplicationIdS>259222</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>259222</ApplicationId>\r\n      <PartyId>119215</PartyId>\r\n
+        \     <PersonId>119215</PersonId>\r\n      <PropertyId>259222</PropertyId>\r\n
+        \     <FamilyName>EGGELING</FamilyName>\r\n      <GivenName>DAMIEN CHRISTIAN</GivenName>\r\n
+        \     <Gender>m</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MR DAMIEN CHRISTIAN EGGELING</FullName>\r\n      <EmailAddress>eg-1974@hotmail.com</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>259222</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259222</ApplicationId>\r\n
+        \     <PartyId>119215</PartyId>\r\n      <PersonId>119215</PersonId>\r\n      <PropertyId>259222</PropertyId>\r\n
+        \     <FamilyName>EGGELING</FamilyName>\r\n      <GivenName>DAMIEN CHRISTIAN</GivenName>\r\n
+        \     <Gender>m</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR DAMIEN CHRISTIAN EGGELING</FullName>\r\n      <EmailAddress>eg-1974@hotmail.com</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>259222</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259222</ApplicationId>\r\n
+        \     <PartyId>119216</PartyId>\r\n      <PersonId>119216</PersonId>\r\n      <PropertyId>259222</PropertyId>\r\n
+        \     <FamilyName>EGGELING</FamilyName>\r\n      <GivenName>JESSICA RAINE</GivenName>\r\n
+        \     <Gender>f</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS JESSICA RAINE EGGELING</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259222</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>259375</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>DAMod</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Development Application Modification</NatureOfApplication>\r\n
+        \   <ReferenceNumber>0185/19DM</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>185</ReferenceNumberNumber>\r\n    <Decision>In
+        Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n    <Status>INPROGRESS</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-05T10:38:36.157+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Seniors Housing (26
+        self-contained dwellings) and Subdivision (27 lots - Community Title, including
+        internal road)</ApplicationDetails>\r\n    <OfficerId>RGGRENAH</OfficerId>\r\n
+        \   <Officer>Renah Givney</Officer>\r\n    <Contact />\r\n    <Group />\r\n
+        \   <DADays>2</DADays>\r\n    <ApplicationIdS>259375</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259375</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259375</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>1516200</PropertyId>\r\n      <ApplicationId>259375</ApplicationId>\r\n
+        \     <AssessmentId>1709064</AssessmentId>\r\n      <ParcelId>146960</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>9</StreetNumber1>\r\n      <StreetName>MOONEE
+        BEACH ROAD</StreetName>\r\n      <StreetType />\r\n      <LocalityName>MOONEE
+        BEACH</LocalityName>\r\n      <Postcode>2450</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>MB</Ward>\r\n      <Line1>9
+        MOONEE BEACH ROAD</Line1>\r\n      <Line2>MOONEE BEACH NSW 2450</Line2>\r\n
+        \     <FullLegalDescription>LOT 1 DP 252223</FullLegalDescription>\r\n      <Area>4039.000000</Area>\r\n
+        \     <AreaUnits>M</AreaUnits>\r\n      <ApplicationIdS>259375</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>2238610</PropertyId>\r\n
+        \     <ApplicationId>259375</ApplicationId>\r\n      <AssessmentId>3479973</AssessmentId>\r\n
+        \     <ParcelId>3320785</ParcelId>\r\n      <Status>C</Status>\r\n      <UnitNumber>0</UnitNumber>\r\n
+        \     <StreetNumber1>7</StreetNumber1>\r\n      <StreetNumber2>0</StreetNumber2>\r\n
+        \     <StreetName>MOONEE BEACH ROAD</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>MOONEE BEACH</LocalityName>\r\n      <Postcode>2450</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Line1>7 MOONEE BEACH ROAD</Line1>\r\n      <Line2>MOONEE BEACH NSW
+        2450</Line2>\r\n      <FullLegalDescription>Lots 1 DP 1140702</FullLegalDescription>\r\n
+        \     <Area>3849.000000</Area>\r\n      <AreaUnits>M</AreaUnits>\r\n      <ApplicationIdS>259375</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>259375</ApplicationId>\r\n
+        \     <PartyId>120497</PartyId>\r\n      <PersonId>120497</PersonId>\r\n      <PropertyId>259375</PropertyId>\r\n
+        \     <FamilyName>PETERSEN CONSULTING GROUP</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>PETERSEN CONSULTING GROUP</FullName>\r\n      <EmailAddress>petersenconsulting@bigpond.com</EmailAddress>\r\n
+        \     <TelephoneNumber>66526685</TelephoneNumber>\r\n      <MobileNumber>0407
+        095 233</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>259375</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259375</ApplicationId>\r\n
+        \     <PartyId>18178</PartyId>\r\n      <PersonId>18178</PersonId>\r\n      <PropertyId>259375</PropertyId>\r\n
+        \     <FamilyName>NEWTON</FamilyName>\r\n      <GivenName>GRAEME LESLIE</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR GRAEME LESLIE NEWTON</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259375</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259375</ApplicationId>\r\n      <PartyId>18179</PartyId>\r\n
+        \     <PersonId>18179</PersonId>\r\n      <PropertyId>259375</PropertyId>\r\n
+        \     <FamilyName>NEWTON</FamilyName>\r\n      <GivenName>MONICA ELIZABETH</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS MONICA ELIZABETH NEWTON</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259375</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>259379</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>843</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Swimming Pool-Inground</NatureOfApplication>\r\n
+        \   <ReferenceNumber>0894/19DA</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>894</ReferenceNumberNumber>\r\n    <EstimatedCost>32000.000000</EstimatedCost>\r\n
+        \   <Decision>In Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n
+        \   <Status>INPROGRESS</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-06-05T11:06:04.353+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Swimming Pool-Inground</ApplicationDetails>\r\n
+        \   <Contact />\r\n    <Group />\r\n    <DADays>2</DADays>\r\n    <ApplicationIdS>259379</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259379</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259379</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>1100</PropertyId>\r\n      <ApplicationId>259379</ApplicationId>\r\n
+        \     <AssessmentId>00095605606</AssessmentId>\r\n      <ParcelId>110</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>10</StreetNumber1>\r\n      <StreetName>COWLING
+        CLOSE</StreetName>\r\n      <StreetType />\r\n      <LocalityName>NANA GLEN</LocalityName>\r\n
+        \     <Postcode>2450</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>NG</Ward>\r\n      <Line1>10
+        COWLING CLOSE</Line1>\r\n      <Line2>NANA GLEN NSW 2450</Line2>\r\n      <FullLegalDescription>LOT
+        38 DP 262732</FullLegalDescription>\r\n      <Area>2.000000</Area>\r\n      <AreaUnits>H</AreaUnits>\r\n
+        \     <ApplicationIdS>259379</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>259379</ApplicationId>\r\n      <PartyId>120489</PartyId>\r\n
+        \     <PersonId>120489</PersonId>\r\n      <PropertyId>259379</PropertyId>\r\n
+        \     <FamilyName>DAVEY</FamilyName>\r\n      <GivenName>KRISTIE CLARE</GivenName>\r\n
+        \     <Gender>f</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MRS KRISTIE CLARE DAVEY</FullName>\r\n      <EmailAddress>krisantboys@bigpond.com</EmailAddress>\r\n
+        \     <MobileNumber>0425 206 912</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259379</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259379</ApplicationId>\r\n      <PartyId>120488</PartyId>\r\n
+        \     <PersonId>120488</PersonId>\r\n      <PropertyId>259379</PropertyId>\r\n
+        \     <FamilyName>DAVEY</FamilyName>\r\n      <GivenName>ANTHONY DUNCAN</GivenName>\r\n
+        \     <Gender>m</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MR ANTHONY DUNCAN DAVEY</FullName>\r\n      <EmailAddress>ccfstudent023@icloud.com</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>259379</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259379</ApplicationId>\r\n
+        \     <PartyId>120489</PartyId>\r\n      <PersonId>120489</PersonId>\r\n      <PropertyId>259379</PropertyId>\r\n
+        \     <FamilyName>DAVEY</FamilyName>\r\n      <GivenName>KRISTIE CLARE</GivenName>\r\n
+        \     <Gender>f</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS KRISTIE CLARE DAVEY</FullName>\r\n      <EmailAddress>krisantboys@bigpond.com</EmailAddress>\r\n
+        \     <MobileNumber>0425 206 912</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259379</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259379</ApplicationId>\r\n      <PartyId>120488</PartyId>\r\n
+        \     <PersonId>120488</PersonId>\r\n      <PropertyId>259379</PropertyId>\r\n
+        \     <FamilyName>DAVEY</FamilyName>\r\n      <GivenName>ANTHONY DUNCAN</GivenName>\r\n
+        \     <Gender>m</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR ANTHONY DUNCAN DAVEY</FullName>\r\n      <EmailAddress>ccfstudent023@icloud.com</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>259379</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>259391</ApplicationId>\r\n    <ApplicationType>Joint Development
+        Building</ApplicationType>\r\n    <NatureOfApplicationType>817</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Dual Occupancy-New Free Stand.</NatureOfApplication>\r\n
+        \   <ReferenceNumber>0895/19DA</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>895</ReferenceNumberNumber>\r\n    <EstimatedCost>1200000.000000</EstimatedCost>\r\n
+        \   <Decision>In Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n
+        \   <Status>INPROGRESS</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-06-05T12:35:35.517+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Dual Occupancy-New Free
+        Stand.</ApplicationDetails>\r\n    <Contact />\r\n    <Group />\r\n    <DADays>2</DADays>\r\n
+        \   <ApplicationIdS>259391</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>259391</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>259391</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>1778200</PropertyId>\r\n
+        \     <ApplicationId>259391</ApplicationId>\r\n      <AssessmentId>07126200000</AssessmentId>\r\n
+        \     <ParcelId>172350</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>2</StreetNumber1>\r\n
+        \     <StreetName>OCEAN DRIVE</StreetName>\r\n      <StreetType />\r\n      <LocalityName>SAFETY
+        BEACH</LocalityName>\r\n      <Postcode>2456</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>SF</Ward>\r\n      <Line1>2
+        OCEAN DRIVE</Line1>\r\n      <Line2>SAFETY BEACH NSW 2456</Line2>\r\n      <FullLegalDescription>LOT
+        9 DP 222691</FullLegalDescription>\r\n      <Area>1866.600000</Area>\r\n      <AreaUnits>M</AreaUnits>\r\n
+        \     <ApplicationIdS>259391</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>259391</ApplicationId>\r\n      <PartyId>132517</PartyId>\r\n
+        \     <PersonId>132517</PersonId>\r\n      <PropertyId>259391</PropertyId>\r\n
+        \     <FamilyName>ARDILL PAYNE &amp; PARTNERS</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>ARDILL PAYNE &amp; PARTNERS</FullName>\r\n      <EmailAddress>pauls@ardillpayne.com.au</EmailAddress>\r\n
+        \     <TelephoneNumber>02 6686 3280</TelephoneNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259391</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259391</ApplicationId>\r\n      <PartyId>142470</PartyId>\r\n
+        \     <PersonId>142470</PersonId>\r\n      <PropertyId>259391</PropertyId>\r\n
+        \     <FamilyName>HOSKINS</FamilyName>\r\n      <GivenName>ANDREW JOHN</GivenName>\r\n
+        \     <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n      <FullName>MR
+        ANDREW JOHN HOSKINS</FullName>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>259391</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259391</ApplicationId>\r\n
+        \     <PartyId>142471</PartyId>\r\n      <PersonId>142471</PersonId>\r\n      <PropertyId>259391</PropertyId>\r\n
+        \     <FamilyName>HOSKINS</FamilyName>\r\n      <GivenName>ROBINA ESME</GivenName>\r\n
+        \     <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n      <FullName>MRS
+        ROBINA ESME HOSKINS</FullName>\r\n      <EmailAddress>androb2@bigpond.com</EmailAddress>\r\n
+        \     <MobileNumber>0411 894 697</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259391</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>259397</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>843</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Swimming Pool-Inground</NatureOfApplication>\r\n
+        \   <ReferenceNumber>0896/19DA</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>896</ReferenceNumberNumber>\r\n    <EstimatedCost>28000.000000</EstimatedCost>\r\n
+        \   <Decision>In Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n
+        \   <Status>INPROGRESS</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-06-05T14:46:40.763+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Swimming Pool-Inground
+        and shed</ApplicationDetails>\r\n    <OfficerId>TBA</OfficerId>\r\n    <Officer>
+        TO BE ADVISED</Officer>\r\n    <Contact />\r\n    <Group />\r\n    <DADays>2</DADays>\r\n
+        \   <ApplicationIdS>259397</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>259397</ApplicationId>\r\n
+        \     <DeterminationType>In Progress</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>259397</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>64985</PropertyId>\r\n
+        \     <ApplicationId>259397</ApplicationId>\r\n      <AssessmentId>64985</AssessmentId>\r\n
+        \     <ParcelId>60745</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>25</StreetNumber1>\r\n
+        \     <StreetName>ROSELANDS DRIVE</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>COFFS HARBOUR</LocalityName>\r\n      <Postcode>2450</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Ward>CT</Ward>\r\n      <Line1>25 ROSELANDS DRIVE</Line1>\r\n      <Line2>COFFS
+        HARBOUR NSW 2450</Line2>\r\n      <FullLegalDescription>LOT 57 DP 865042 SUBJ
+        TO EASEMENT</FullLegalDescription>\r\n      <Area>1366.000000</Area>\r\n      <AreaUnits>M</AreaUnits>\r\n
+        \     <ApplicationIdS>259397</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>259397</ApplicationId>\r\n      <PartyId>84851</PartyId>\r\n
+        \     <PersonId>84851</PersonId>\r\n      <PropertyId>259397</PropertyId>\r\n
+        \     <FamilyName>THIRD</FamilyName>\r\n      <GivenName>TRACEY</GivenName>\r\n
+        \     <Gender>f</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MRS TRACEY THIRD</FullName>\r\n      <EmailAddress>traceythird@hotmail.com</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>259397</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259397</ApplicationId>\r\n
+        \     <PartyId>84851</PartyId>\r\n      <PersonId>84851</PersonId>\r\n      <PropertyId>259397</PropertyId>\r\n
+        \     <FamilyName>THIRD</FamilyName>\r\n      <GivenName>TRACEY</GivenName>\r\n
+        \     <Gender>f</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS TRACEY THIRD</FullName>\r\n      <EmailAddress>traceythird@hotmail.com</EmailAddress>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>259397</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>259461</ApplicationId>\r\n    <ApplicationType>Joint Development
+        Building</ApplicationType>\r\n    <NatureOfApplicationType>839</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Outbuilding-New</NatureOfApplication>\r\n    <ReferenceNumber>0897/19DA</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>897</ReferenceNumberNumber>\r\n
+        \   <EstimatedCost>20000.000000</EstimatedCost>\r\n    <Decision>In Progress</Decision>\r\n
+        \   <StatusText>In Progress</StatusText>\r\n    <Status>INPROGRESS</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-06T13:33:37.287+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Outbuilding-New - SHED</ApplicationDetails>\r\n
+        \   <Contact />\r\n    <Group />\r\n    <DADays>1</DADays>\r\n    <ApplicationIdS>259461</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259461</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259461</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>36075</PropertyId>\r\n      <ApplicationId>259461</ApplicationId>\r\n
+        \     <AssessmentId>36075</AssessmentId>\r\n      <ParcelId>36985</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>66</StreetNumber1>\r\n      <StreetName>BONVILLE
+        STATION ROAD</StreetName>\r\n      <StreetType />\r\n      <LocalityName>BONVILLE</LocalityName>\r\n
+        \     <Postcode>2450</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>BN</Ward>\r\n      <Line1>66
+        BONVILLE STATION ROAD</Line1>\r\n      <Line2>BONVILLE NSW 2450</Line2>\r\n
+        \     <FullLegalDescription>Lot 20 DP 847393</FullLegalDescription>\r\n      <Area>5776.000000</Area>\r\n
+        \     <AreaUnits>M</AreaUnits>\r\n      <ApplicationIdS>259461</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>259461</ApplicationId>\r\n
+        \     <PartyId>132547</PartyId>\r\n      <PersonId>132547</PersonId>\r\n      <PropertyId>259461</PropertyId>\r\n
+        \     <FamilyName>COHEN</FamilyName>\r\n      <GivenName>PERRY EDWARD</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>MR PERRY EDWARD COHEN</FullName>\r\n      <EmailAddress>pepco@live.com.au</EmailAddress>\r\n
+        \     <MobileNumber>0400 204 207</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259461</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259461</ApplicationId>\r\n      <PartyId>132547</PartyId>\r\n
+        \     <PersonId>132547</PersonId>\r\n      <PropertyId>259461</PropertyId>\r\n
+        \     <FamilyName>COHEN</FamilyName>\r\n      <GivenName>PERRY EDWARD</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR PERRY EDWARD COHEN</FullName>\r\n      <EmailAddress>pepco@live.com.au</EmailAddress>\r\n
+        \     <MobileNumber>0400 204 207</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259461</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259461</ApplicationId>\r\n      <PartyId>132548</PartyId>\r\n
+        \     <PersonId>132548</PersonId>\r\n      <PropertyId>259461</PropertyId>\r\n
+        \     <FamilyName>COHEN</FamilyName>\r\n      <GivenName>SUSAN BARBARA</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS SUSAN BARBARA COHEN</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259461</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259461</ApplicationId>\r\n      <PartyId>146877</PartyId>\r\n
+        \     <PersonId>146877</PersonId>\r\n      <PropertyId>259461</PropertyId>\r\n
+        \     <FamilyName>COHEN</FamilyName>\r\n      <GivenName>BRADEN TAYLOR</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR BRADEN TAYLOR COHEN</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259461</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>259465</ApplicationId>\r\n
+        \   <ApplicationType>Joint Development Building</ApplicationType>\r\n    <NatureOfApplicationType>817</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Dual Occupancy-New Free Stand.</NatureOfApplication>\r\n
+        \   <ReferenceNumber>0898/19DA</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>898</ReferenceNumberNumber>\r\n    <EstimatedCost>130000.000000</EstimatedCost>\r\n
+        \   <Decision>In Progress</Decision>\r\n    <StatusText>In Progress</StatusText>\r\n
+        \   <Status>INPROGRESS</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-06-06T14:33:13.36+10:00</LodgementDate>\r\n
+        \   <DeterminationType>In Progress</DeterminationType>\r\n    <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n    <ApplicationDetails>Dual Occupancy-New Free
+        Stand. - Granny Flat</ApplicationDetails>\r\n    <Contact />\r\n    <Group
+        />\r\n    <DADays>1</DADays>\r\n    <ApplicationIdS>259465</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>259465</ApplicationId>\r\n      <DeterminationType>In
+        Progress</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>259465</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>1057200</PropertyId>\r\n      <ApplicationId>259465</ApplicationId>\r\n
+        \     <AssessmentId>1702990</AssessmentId>\r\n      <ParcelId>102490</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>18</StreetNumber1>\r\n      <StreetName>KORFF
+        STREET</StreetName>\r\n      <StreetType />\r\n      <LocalityName>COFFS HARBOUR</LocalityName>\r\n
+        \     <Postcode>2450</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>NSW</StateTerritory>\r\n      <Ward>CT</Ward>\r\n      <Line1>18
+        KORFF STREET</Line1>\r\n      <Line2>COFFS HARBOUR NSW 2450</Line2>\r\n      <FullLegalDescription>LOT
+        11 SEC 2 DP 5661</FullLegalDescription>\r\n      <Area>1416.000000</Area>\r\n
+        \     <AreaUnits>M</AreaUnits>\r\n      <Dimensions>15.09/CRKX78.56/108.94</Dimensions>\r\n
+        \     <ApplicationIdS>259465</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>259465</ApplicationId>\r\n      <PartyId>112481</PartyId>\r\n
+        \     <PersonId>112481</PersonId>\r\n      <PropertyId>259465</PropertyId>\r\n
+        \     <FamilyName>BUILD WITH AJ &amp; IB LANGFIELD</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>BUILD WITH AJ &amp; IB LANGFIELD</FullName>\r\n      <TelephoneNumber>66526913</TelephoneNumber>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>259465</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <ApplicationId>259465</ApplicationId>\r\n
+        \     <PartyId>25439</PartyId>\r\n      <PersonId>25439</PersonId>\r\n      <PropertyId>259465</PropertyId>\r\n
+        \     <FamilyName>LANGFIELD</FamilyName>\r\n      <GivenName>AMANDA JANE</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>MRS</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MRS AMANDA JANE LANGFIELD</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>259465</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <ApplicationId>259465</ApplicationId>\r\n      <PartyId>50726</PartyId>\r\n
+        \     <PersonId>50726</PersonId>\r\n      <PropertyId>259465</PropertyId>\r\n
+        \     <FamilyName>LANGFIELD</FamilyName>\r\n      <GivenName>IAN BRUCE</GivenName>\r\n
+        \     <Gender>M</Gender>\r\n      <Title>MR</Title>\r\n      <PartyRole>Owner</PartyRole>\r\n
+        \     <FullName>MR IAN BRUCE LANGFIELD</FullName>\r\n      <MobileNumber>0429
+        999 593</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>259465</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n</NewDataSet>"
     http_version: 
   recorded_at: Tue, 14 May 2019 14:00:00 GMT
 recorded_with: VCR 5.0.0
